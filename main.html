@@ -1,0 +1,90 @@
+<html>
+  <head>
+    <title>forest-3d</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/3d.js" defer></script>
+    <script src="./libs/rain.js" defer></script>
+    <script src="./libs/gsap/gsap.min.js" defer></script>
+    <script src="./libs/gsap/ScrollSmoother.min.js" defer></script>
+    <script src="./libs/gsap/ScrollTrigger.min.js" defer></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <div class="navbar">
+          <div class="navbars"><a href="#">home</a></div>
+          <div class="navbars"><a href="#">about</a></div>
+          <div class="navbars"><a href="#">contact</a></div>
+        </div>
+
+        <section class="forest">
+          <header class="main-header">
+            <div class="layers__parallax">
+              <div class="layer__header">
+                <div class="layer__caption">Welcome to Parallax</div>
+                <div class="layer__title">Fairy Forest</div>
+                <div class="layer__title__bio">by Akbarov</div>
+              </div>
+              <div
+                class="layer layers__base"
+                style="background-image: url(./img/layer-base.png)"
+              ></div>
+              <div
+                class="layer layers__midle"
+                style="background-image: url(./img/layer-middle.png)"
+              ></div>
+              <div
+                class="layer layers__front"
+                style="background-image: url(./img/layer-front.png)"
+              ></div>
+              <!-- <div class="logo" style="background-image: url(img/logo.svg);"></div> -->
+            </div>
+          </header>
+        </section>
+
+        <div
+          class="my__logo"
+          style="background-image: url(./img/my-logo.png)"
+        ></div>
+        <div
+          class="my__logo"
+          style="background-image: url(./img/my-logo.png)"
+        ></div>
+        <section class="layers">
+          <div class="layers__container">
+            <div
+              class="layers__item layers-1"
+              style="background-image: url(./img/layer-1.jpg)"
+            ></div>
+            <div
+              class="layers__item layers-2"
+              style="background-image: url(./img/layer-2.png)"
+            ></div>
+            <div class="layers__item layers-3">
+              <div class="hero__content">
+                <h1>natural forest<span>html / css</span></h1>
+                <div class="hero__content__p">
+                  Creating a beatiful 3d website with a 'lens effect'
+                </div>
+                <button class="button__start">Start</button>
+              </div>
+            </div>
+            <div class="layers__item layers-4">
+              <canvas class="rain"></canvas>
+            </div>
+            <div
+              class="layers__item layers-5"
+              style="background-image: url(./img/layer-5.png)"
+            ></div>
+            <div
+              class="layers__item layers-6"
+              style="background-image: url(./img/layer-6.png)"
+            ></div>
+          </div>
+        </section>
+        <div style="height: 100vh"></div>
+      </div>
+    </div>
+  </body>
+</html>
